@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<unistd.h>
+
+int main(){
+int get_parent=getppid(), get_child=getpid();
+printf("Parent Process id is : %d\n", get_parent);
+printf("child Process id is : %d\n", get_child);
+return 0;
+}
